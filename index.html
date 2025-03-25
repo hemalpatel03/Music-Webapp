@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music WebApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="player-container">
+    <h1>♬ Simple Music Player</h1>
+    <audio id="audio" preload="metadata"></audio>
+
+    <div class="song-info">
+      <p id="song-title">Select a song</p>
+    </div>
+
+    <div class="controls">
+      <button id="play-pause">▶️</button>
+      <input type="range" id="progress" value="0" />
+    </div>
+
+    <div class="song-list">
+      <h3>Select Song:</h3>
+      <ul id="songList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

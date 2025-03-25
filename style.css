@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .player-container {
+    text-align: center;
+    background: #29294d;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  #play-pause {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #progress {
+    width: 100%;
+  }
+  
+  .song-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .song-list li {
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: #3d3d6b;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .song-list li:hover {
+    background-color: #57578a;
+  }
+  
